@@ -2,7 +2,7 @@ from flask import Flask
 import os
 app = Flask(__name__)
 
-
+def p():
 import numpy as np
 S=3
 A=4
