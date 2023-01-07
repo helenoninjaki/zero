@@ -2,7 +2,7 @@ from flask import Flask
 import os
 app = Flask(__name__)
 
-
+@app.route("/")
 import numpy as np
 S=3
 A=4
